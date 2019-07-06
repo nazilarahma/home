@@ -26,7 +26,30 @@ ul {
   
   
 }
+.active {
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
 
+.active a {
+  background: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.active a:hover {
+  background: white;
+  border: 1px solid #D3D3D3;
+  color: #D3D3D3;
+}
+/*
 li {
   color: #FFF;
   display: inline-block;
@@ -45,7 +68,7 @@ div.active {
 .active a:hover{
 backfround-color:white;
 color:#D3D3D3;
-
+*/
 .search {
   background-color: #FFF;
   border: 1px solid #DDD;
