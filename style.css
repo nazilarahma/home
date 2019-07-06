@@ -42,6 +42,9 @@ li {
 div.active {
   background-color: #D3D3D3;
 }
+.active a:hover{
+backfround-color:white;
+color:#D3D3D3;
 
 .search {
   background-color: #FFF;
