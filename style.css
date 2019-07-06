@@ -27,48 +27,25 @@ ul {
   
 }
 .active {
-  padding: 40px 0px;
+  padding: 10px 0px;
   position: relative;
-  text-align: center;
   width: 100%;
 }
 
 .active a {
-  background: #D3D3D3;
-  border: 1px solid #D3D3D3;
+  background: #808080;
+  border: 1px solid  #D3D3D3;
   border-radius: 3px;
   color: white;
   display: inline-block;
-  margin: 10px;
-  padding: 14px;
+  margin: 5px;
+  padding: 12px;
   text-decoration: none;
 }
 
 .active a:hover {
-  background: white;
-  border: 1px solid #D3D3D3;
-  color: #D3D3D3;
+  opacity:0.5;
 }
-/*
-li {
-  color: #FFF;
-  display: inline-block;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin: 0;
-  padding: 20px 18px 10px 18px;
-  text-transform: uppercase;
-}
-
-div.active {
-  background-color: #D3D3D3;
-}
-.active a:hover{
-backfround-color:white;
-color:#D3D3D3;
-*/
 .search {
   background-color: #FFF;
   border: 1px solid #DDD;
@@ -78,10 +55,13 @@ color:#D3D3D3;
   margin: 50px auto 0px auto;
   width: 77%;
 }
-div.fixed{
+.fixed{
 	position:fixed;
 	bottom:0;
 	text-align:center;
+}
+.fixed a:hover {
+	opacity:0.5;
 }
 .foto{
 	border-radius: 50%;
